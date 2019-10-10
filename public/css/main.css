@@ -1,0 +1,473 @@
+.marginTop {
+  margin-top: 6%; }
+
+/* CSS content start now : */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/bck.png");
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #6F9FD8, #4e589b);
+  color: white; }
+  header .logo {
+    margin: 2% 2% 0 -2%; }
+    header .logo img {
+      width: 125px;
+      border-radius: 50%;
+      transform: scale(1.1, 1.1);
+      transition: all 0.3s ease-in-out; }
+  header .title h1 {
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 75px;
+    margin: 2% 0 0 0;
+    padding: 0;
+    text-align: center; }
+  header .title p {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 0 20px 0; }
+  header .socialNetwork {
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    right: 1.5%;
+    display: flex; }
+    header .socialNetwork a {
+      font-size: 30px;
+      color: white;
+      margin: 0 8px;
+      transition: all 0.5s ease-out; }
+      header .socialNetwork a:hover {
+        transition: all 1s ease;
+        transform: rotate(360deg);
+        color: #6F9FD8; }
+
+.leaningSeparator {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to right, #6F9FD8, #4e589b);
+  transform: skewY(-4deg);
+  padding: 4%;
+  margin-top: -4%;
+  margin-bottom: 10%; }
+
+.leaningSeparator2 {
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to right, #6F9FD8, #4e589b);
+  transform: skewY(4deg);
+  padding: 5%;
+  margin-bottom: -4%; }
+
+main img {
+  width: 325px; }
+main section {
+  text-align: center;
+  margin-bottom: 15%; }
+  main section h2.subtitle {
+    color: rgba(29, 30, 35, 0.87);
+    font-family: "Open Sans", sans-serif;
+    font-size: 33px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  main section.aboutMeSuylo p, main section .myServices p {
+    color: grey;
+    line-height: 1.7em;
+    font-family: "Montserrat", sans-serif;
+    width: 900px;
+    margin: auto; }
+  main section.mySkills {
+    width: 900px;
+    margin: auto;
+    color: rgba(29, 30, 35, 0.87);
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin-bottom: 15%; }
+  main section.projectRealized {
+    position: relative;
+    z-index: 5;
+    background: linear-gradient(to right, #6F9FD8, #4e589b);
+    padding: 1%;
+    margin-bottom: 0 !important; }
+    main section.projectRealized h2 {
+      color: white;
+      margin-top: -2.5%; }
+    main section.projectRealized .projects {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+    main section.projectRealized .project-1 {
+      background: linear-gradient(to right, #EAEAEA, #faf8f7, #F2F2F2, #faf8f7);
+      margin: 0 2%;
+      color: #212529;
+      overflow: hidden; }
+    main section.projectRealized a img {
+      transition: all 0.3s ease-in-out;
+      overflow: hidden; }
+      main section.projectRealized a img:hover {
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -moz-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -ms-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -o-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        animation-name: blink;
+        animation: blink 1.5s infinite; }
+    main section.projectRealized h3 {
+      font-family: "Verdana", sans-serif;
+      font-weight: lighter;
+      font-size: 26px;
+      margin-top: 8px; }
+      main section.projectRealized h3 .small {
+        font-size: 14px; }
+    main section.projectRealized .techUsed-center {
+      margin-bottom: 25px; }
+    main section.projectRealized .techUsed {
+      margin: 20px 0; }
+    main section.projectRealized .html5, main section.projectRealized .bootstrap, main section.projectRealized .css3, main section.projectRealized .php, main section.projectRealized .js, main section.projectRealized .sass {
+      color: #4e589b;
+      font-family: "Montserrat", sans-serif;
+      padding: 1%;
+      margin: 0 5px;
+      width: 0;
+      height: 0;
+      border: 1px solid #4e589b;
+      border-radius: 3px;
+      font-size: 15px; }
+    main section.projectRealized p.createdOn {
+      margin-bottom: 0;
+      font-size: 15px; }
+    main section.projectRealized .project-2 {
+      background: linear-gradient(to right, #EAEAEA, #faf8f7, #F2F2F2, #faf8f7);
+      margin: 0 2%;
+      color: #212529;
+      overflow: hidden; }
+    main section.projectRealized a img {
+      transition: all 0.3s ease-in-out;
+      overflow: hidden; }
+      main section.projectRealized a img:hover {
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -moz-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -ms-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -o-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        animation-name: blink;
+        animation: blink 1.5s infinite; }
+    main section.projectRealized h3 {
+      font-family: "Verdana", sans-serif;
+      font-weight: lighter;
+      font-size: 26px;
+      margin-top: 8px; }
+      main section.projectRealized h3 .small {
+        font-size: 14px; }
+    main section.projectRealized .techUsed-center {
+      margin-bottom: 25px; }
+    main section.projectRealized .techUsed {
+      margin: 20px 0; }
+    main section.projectRealized .html5, main section.projectRealized .bootstrap, main section.projectRealized .css3, main section.projectRealized .php, main section.projectRealized .js, main section.projectRealized .sass {
+      color: #4e589b;
+      font-family: "Montserrat", sans-serif;
+      padding: 1%;
+      margin: 0 5px;
+      width: 0;
+      height: 0;
+      border: 1px solid #4e589b;
+      border-radius: 3px;
+      font-size: 15px; }
+    main section.projectRealized p.createdOn {
+      margin-bottom: 0;
+      font-size: 15px; }
+    main section.projectRealized .project-3 {
+      background: linear-gradient(to right, #EAEAEA, #faf8f7, #F2F2F2, #faf8f7);
+      margin: 0 2%;
+      color: #212529;
+      overflow: hidden; }
+    main section.projectRealized a img {
+      transition: all 0.3s ease-in-out;
+      overflow: hidden; }
+      main section.projectRealized a img:hover {
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -moz-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -ms-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -o-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        animation-name: blink;
+        animation: blink 1.5s infinite; }
+    main section.projectRealized h3 {
+      font-family: "Verdana", sans-serif;
+      font-weight: lighter;
+      font-size: 26px;
+      margin-top: 8px; }
+      main section.projectRealized h3 .small {
+        font-size: 14px; }
+    main section.projectRealized .techUsed-center {
+      margin-bottom: 25px; }
+    main section.projectRealized .techUsed {
+      margin: 20px 0; }
+    main section.projectRealized .html5, main section.projectRealized .bootstrap, main section.projectRealized .css3, main section.projectRealized .php, main section.projectRealized .js, main section.projectRealized .sass {
+      color: #4e589b;
+      font-family: "Montserrat", sans-serif;
+      padding: 1%;
+      margin: 0 5px;
+      width: 0;
+      height: 0;
+      border: 1px solid #4e589b;
+      border-radius: 3px;
+      font-size: 15px; }
+    main section.projectRealized p.createdOn {
+      margin-bottom: 0;
+      font-size: 15px; }
+    main section.projectRealized .project-4 {
+      background: linear-gradient(to right, #EAEAEA, #faf8f7, #F2F2F2, #faf8f7);
+      margin: 0 2%;
+      color: #212529;
+      overflow: hidden; }
+    main section.projectRealized a img {
+      transition: all 0.3s ease-in-out;
+      overflow: hidden; }
+      main section.projectRealized a img:hover {
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -moz-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -ms-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -o-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        animation-name: blink;
+        animation: blink 1.5s infinite; }
+    main section.projectRealized h3 {
+      font-family: "Verdana", sans-serif;
+      font-weight: lighter;
+      font-size: 26px;
+      margin-top: 8px; }
+      main section.projectRealized h3 .small {
+        font-size: 14px; }
+    main section.projectRealized .techUsed-center {
+      margin-bottom: 25px; }
+    main section.projectRealized .techUsed {
+      margin: 20px 0; }
+    main section.projectRealized .html5, main section.projectRealized .bootstrap, main section.projectRealized .css3, main section.projectRealized .php, main section.projectRealized .js, main section.projectRealized .sass {
+      color: #4e589b;
+      font-family: "Montserrat", sans-serif;
+      padding: 1%;
+      margin: 0 5px;
+      width: 0;
+      height: 0;
+      border: 1px solid #4e589b;
+      border-radius: 3px;
+      font-size: 15px; }
+    main section.projectRealized p.createdOn {
+      margin-bottom: 0;
+      font-size: 15px; }
+    main section.projectRealized .project-5 {
+      background: linear-gradient(to right, #EAEAEA, #faf8f7, #F2F2F2, #faf8f7);
+      margin: 0 2%;
+      color: #212529;
+      overflow: hidden; }
+    main section.projectRealized a img {
+      transition: all 0.3s ease-in-out;
+      overflow: hidden; }
+      main section.projectRealized a img:hover {
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -moz-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -ms-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -o-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        animation-name: blink;
+        animation: blink 1.5s infinite; }
+    main section.projectRealized h3 {
+      font-family: "Verdana", sans-serif;
+      font-weight: lighter;
+      font-size: 26px;
+      margin-top: 8px; }
+      main section.projectRealized h3 .small {
+        font-size: 14px; }
+    main section.projectRealized .techUsed-center {
+      margin-bottom: 25px; }
+    main section.projectRealized .techUsed {
+      margin: 20px 0; }
+    main section.projectRealized .html5, main section.projectRealized .bootstrap, main section.projectRealized .css3, main section.projectRealized .php, main section.projectRealized .js, main section.projectRealized .sass {
+      color: #4e589b;
+      font-family: "Montserrat", sans-serif;
+      padding: 1%;
+      margin: 0 5px;
+      width: 0;
+      height: 0;
+      border: 1px solid #4e589b;
+      border-radius: 3px;
+      font-size: 15px; }
+    main section.projectRealized p.createdOn {
+      margin-bottom: 0;
+      font-size: 15px; }
+    main section.projectRealized .project-6 {
+      background: linear-gradient(to right, #EAEAEA, #faf8f7, #F2F2F2, #faf8f7);
+      margin: 0 2%;
+      color: #212529;
+      overflow: hidden; }
+    main section.projectRealized a img {
+      transition: all 0.3s ease-in-out;
+      overflow: hidden; }
+      main section.projectRealized a img:hover {
+        cursor: pointer;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        -webkit-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -moz-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -ms-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -o-transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        animation-name: blink;
+        animation: blink 1.5s infinite; }
+    main section.projectRealized h3 {
+      font-family: "Verdana", sans-serif;
+      font-weight: lighter;
+      font-size: 26px;
+      margin-top: 8px; }
+      main section.projectRealized h3 .small {
+        font-size: 14px; }
+    main section.projectRealized .techUsed-center {
+      margin-bottom: 25px; }
+    main section.projectRealized .techUsed {
+      margin: 20px 0; }
+    main section.projectRealized .html5, main section.projectRealized .bootstrap, main section.projectRealized .css3, main section.projectRealized .php, main section.projectRealized .js, main section.projectRealized .sass {
+      color: #4e589b;
+      font-family: "Montserrat", sans-serif;
+      padding: 1%;
+      margin: 0 5px;
+      width: 0;
+      height: 0;
+      border: 1px solid #4e589b;
+      border-radius: 3px;
+      font-size: 15px; }
+    main section.projectRealized p.createdOn {
+      margin-bottom: 0;
+      font-size: 15px; }
+  main section.myShop p.myServices {
+    color: grey;
+    line-height: 1.7em;
+    font-family: "Montserrat", sans-serif;
+    width: 900px;
+    margin: auto; }
+
+.services {
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5% auto; }
+  .services .services-1, .services .services-2, .services .services-3 {
+    margin: 0 20px 0 20px;
+    border: 2px solid #6F9FD8;
+    border-radius: 15px 0 15px 0;
+    background: white;
+    padding-bottom: 25px;
+    overflow: hidden; }
+    .services .services-1 h2, .services .services-2 h2, .services .services-3 h2 {
+      color: white;
+      background: #6F9FD8;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      font-family: "Open Sans", sans-serif;
+      font-weight: lighter;
+      margin: 0; }
+    .services .services-1 hr, .services .services-2 hr, .services .services-3 hr {
+      border: 1px dashed #6F9FD8; }
+    .services .services-1 p, .services .services-2 p, .services .services-3 p {
+      font-size: 17px;
+      font-family: "Montserrat", sans-serif;
+      padding: 15px;
+      color: grey;
+      font-weight: lighter;
+      margin: 25px 5px; }
+    .services .services-1 a, .services .services-2 a, .services .services-3 a {
+      padding: 7px 12px;
+      color: white;
+      background: #4e589b;
+      border-radius: 5px;
+      text-decoration: none; }
+    .services .services-1 p.price, .services .services-2 p.price, .services .services-3 p.price {
+      font-size: 50px;
+      margin: 0;
+      font-family: "Lobster", sans-serif;
+      color: grey; }
+
+.end {
+  margin-top: -8.5%; }
+
+svg {
+  position: relative;
+  margin-top: -5%;
+  z-index: 1; }
+
+footer {
+  position: relative;
+  background: #4e589b;
+  padding: 4%;
+  z-index: 50;
+  text-align: center;
+  margin-top: -5%;
+  color: white; }
+
+.responsive, .responsive-2 {
+  display: none; }
+
+@keyframes blink {
+  from {
+    opacity: 0.7;
+    transition: 0.5s; }
+  to {
+    opacity: 1;
+    transition: 0.5s; } }
+
+/*# sourceMappingURL=main.css.map */

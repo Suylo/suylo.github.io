@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bd6d0aa7-eb2c-4923-a490-5cd9e12fca4c" name="suylo.github.io" url="https://github.com/Suylo/suylo.github.io.git">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>

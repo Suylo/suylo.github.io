@@ -1,0 +1,265 @@
+
+// Colors
+$w: white
+$grad: linear-gradient(to right, #6F9FD8, #4e589b)
+$lightBlue: #6F9FD8
+$darkBlue: #4e589b
+$titleH2: rgba(29, 30, 35, 0.87)
+$lightBlack: #212529
+$para: grey
+
+// Polices
+$montserrat: 'Montserrat', sans-serif
+$lato: "Lato", sans-serif
+.marginTop
+  margin-top: 6%
+
+/* CSS content start now :
+
+html, body
+  margin: 0
+  padding: 0
+  background-image: url("../img/bck.png")
+  font-family: "Montserrat", sans-serif
+
+// Header
+header
+  z-index: 2
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  background: $grad
+  color: white
+
+  .logo
+    margin: 2% 2% 0 -2%
+    img
+      width: 125px
+      border-radius: 50%
+      transform: scale(1.1, 1.1)
+      transition: all .3s ease-in-out
+
+  .title
+    h1
+      font-family: "Permanent Marker", sans-serif
+      font-size: 75px
+      margin: 2% 0 0 0
+      padding: 0
+      text-align: center
+    p
+      font-family: "Open Sans", sans-serif
+      margin: 0 0 20px 0
+
+  .socialNetwork
+    position: absolute
+    z-index: 2
+    top: 10%
+    right: 1.5%
+    display: flex
+    a
+      font-size: 30px
+      color: $w
+      margin: 0 8px
+      transition: all .5s ease-out
+      &:hover
+        transition: all 1s ease
+        transform: rotate(360deg)
+        color: $lightBlue
+
+
+// Separator between header and main of the page
+.leaningSeparator
+  position: relative
+  z-index: 1
+  background: $grad
+  transform: skewY(-4deg)
+  padding: 4%
+  margin-top: -4%
+  margin-bottom: 10%
+
+.leaningSeparator2
+  position: relative
+  z-index: 1
+  background: $grad
+  transform: skewY(4deg)
+  padding: 5%
+  margin-bottom: -4%
+
+// Main content of the page
+main
+  img
+    width: 325px
+  section
+    text-align: center
+    margin-bottom: 15%
+
+    h2.subtitle
+      color: $titleH2
+      font-family: "Open Sans", sans-serif
+      font-size: 33px
+      font-weight: 300
+      text-transform: uppercase
+
+    &.aboutMeSuylo, .myServices
+      p
+        color: $para
+        line-height: 1.7em
+        font-family: $montserrat
+        width: 900px
+        margin: auto
+
+    &.mySkills
+      width: 900px
+      margin: auto
+      color: $titleH2
+      text-align: center
+      font-family: $lato
+      font-weight: 400
+      margin-bottom: 15%
+
+    &.projectRealized
+      position: relative
+      z-index: 5
+      background: $grad
+      padding: 1%
+      margin-bottom: 0 !important
+      h2
+        color: $w
+        margin-top: -2.5%
+
+      .projects
+        display: flex
+        flex-direction: row
+        justify-content: center
+
+      @for $i from 1 through 6
+        .project-#{$i}
+          background: linear-gradient(to right, #EAEAEA, #faf8f7, #F2F2F2, #faf8f7)
+          margin: 0 2%
+          color: $lightBlack
+          overflow: hidden
+        a img
+          transition: all .3s ease-in-out
+          overflow: hidden
+
+          &:hover
+            cursor: pointer
+            -webkit-transition: all 0.3s
+            -moz-transition: all 0.3s
+            -o-transition: all 0.3s
+            transition: all 0.3s
+            -webkit-transform: scale(1.1, 1.1) translate3d(0, -15px, 0)
+            -moz-transform: scale(1.1, 1.1) translate3d(0, -15px, 0)
+            -ms-transform: scale(1.1, 1.1) translate3d(0, -15px, 0)
+            -o-transform: scale(1.1, 1.1) translate3d(0, -15px, 0)
+            transform: scale(1.1, 1.1) translate3d(0, -15px, 0)
+            -webkit-backface-visibility: hidden
+            -moz-backface-visibility: hidden
+            backface-visibility: hidden
+            animation-name: blink
+            animation: blink 1.5s infinite
+        h3
+          font-family: "Verdana", sans-serif
+          font-weight: lighter
+          font-size: 26px
+          margin-top: 8px
+          .small
+            font-size: 14px
+        .techUsed-center
+          margin-bottom: 25px
+        .techUsed
+          margin: 20px 0
+        .html5, .bootstrap, .css3, .php, .js, .sass
+          color: #4e589b
+          font-family: 'Montserrat', sans-serif
+          padding: 1%
+          margin: 0 5px
+          width: 0
+          height: 0
+          border: 1px solid #4e589b
+          border-radius: 3px
+          font-size: 15px
+        p.createdOn
+          margin-bottom: 0
+          font-size: 15px
+
+    &.myShop
+      p.myServices
+        color: $para
+        line-height: 1.7em
+        font-family: $montserrat
+        width: 900px
+        margin: auto
+
+.services
+  max-width: 900px
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: space-between
+  margin: 5% auto
+
+  .services-1, .services-2, .services-3
+    margin: 0 20px 0 20px
+    border: 2px solid $lightBlue
+    border-radius: 15px 0 15px 0
+    background: $w
+    padding-bottom: 25px
+    overflow: hidden
+    h2
+      color: $w
+      background: $lightBlue
+      padding: 10px 30px
+      text-transform: uppercase
+      font-family: "Open Sans", sans-serif
+      font-weight: lighter
+      margin: 0
+    hr
+      border: 1px dashed $lightBlue
+    p
+      font-size: 17px
+      font-family: "Montserrat", sans-serif
+      padding: 15px
+      color: $para
+      font-weight: lighter
+      margin: 25px 5px
+    a
+      padding: 7px 12px
+      color: white
+      background: $darkBlue
+      border-radius: 5px
+      text-decoration: none
+    p.price
+      font-size: 50px
+      margin: 0
+      font-family: 'Lobster', sans-serif
+      color: $para
+
+.end
+  margin-top: -8.5%
+svg
+  position: relative
+  margin-top: -5%
+  z-index: 1
+
+footer
+  position: relative
+  background: $darkBlue
+  padding: 4%
+  z-index: 50
+  text-align: center
+  margin-top: -5%
+  color: $w
+
+.responsive, .responsive-2
+  display: none
+
+@keyframes blink
+  from
+    opacity: 0.7
+    transition: 0.5s
+  to
+    opacity: 1
+    transition: 0.5s
