@@ -125,9 +125,7 @@ main section {
         transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
-        backface-visibility: hidden;
-        animation-name: blink;
-        animation: blink 1.5s infinite; }
+        backface-visibility: hidden; }
     main section.projectRealized h3 {
       font-family: "Verdana", sans-serif;
       font-weight: lighter;
@@ -173,9 +171,7 @@ main section {
         transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
-        backface-visibility: hidden;
-        animation-name: blink;
-        animation: blink 1.5s infinite; }
+        backface-visibility: hidden; }
     main section.projectRealized h3 {
       font-family: "Verdana", sans-serif;
       font-weight: lighter;
@@ -221,9 +217,7 @@ main section {
         transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
-        backface-visibility: hidden;
-        animation-name: blink;
-        animation: blink 1.5s infinite; }
+        backface-visibility: hidden; }
     main section.projectRealized h3 {
       font-family: "Verdana", sans-serif;
       font-weight: lighter;
@@ -269,9 +263,7 @@ main section {
         transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
-        backface-visibility: hidden;
-        animation-name: blink;
-        animation: blink 1.5s infinite; }
+        backface-visibility: hidden; }
     main section.projectRealized h3 {
       font-family: "Verdana", sans-serif;
       font-weight: lighter;
@@ -317,9 +309,7 @@ main section {
         transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
-        backface-visibility: hidden;
-        animation-name: blink;
-        animation: blink 1.5s infinite; }
+        backface-visibility: hidden; }
     main section.projectRealized h3 {
       font-family: "Verdana", sans-serif;
       font-weight: lighter;
@@ -365,9 +355,7 @@ main section {
         transform: scale(1.1, 1.1) translate3d(0, -15px, 0);
         -webkit-backface-visibility: hidden;
         -moz-backface-visibility: hidden;
-        backface-visibility: hidden;
-        animation-name: blink;
-        animation: blink 1.5s infinite; }
+        backface-visibility: hidden; }
     main section.projectRealized h3 {
       font-family: "Verdana", sans-serif;
       font-weight: lighter;
