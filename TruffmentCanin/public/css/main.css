@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white; }
+
+#gray {
+  background: whitesmoke; }
+
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 1%; }
+  header .logo img {
+    width: 95px;
+    border-radius: 50%;
+    margin: 0 20%; }
+  header nav {
+    margin-right: 2%; }
+    header nav ul#menu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      overflow: hidden; }
+      header nav ul#menu li {
+        display: inline;
+        margin: 0 15px; }
+        header nav ul#menu li a {
+          position: relative;
+          transition: all 0.3s linear;
+          display: inline-block;
+          padding: 10px 5px;
+          color: #2a2a2a;
+          font-family: "Open Sans", sans-serif;
+          text-transform: uppercase;
+          text-decoration: none; }
+          header nav ul#menu li a:hover {
+            color: #2a2a2a;
+            transition: 0.3s;
+            text-decoration: none; }
+            header nav ul#menu li a:hover:after {
+              transform: scaleX(1.1); }
+          header nav ul#menu li a:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            left: 0;
+            right: 0;
+            transform: scaleX(0);
+            transition: all 0.3s linear;
+            bottom: 0;
+            border-bottom: 2px solid #4592dc; }
+
+main .centralBanner {
+  padding: 20% 0;
+  background: url("../img/banner.jpg") bottom/cover fixed;
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+main .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  padding: 20%; }
+main .texteBanner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 100%;
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase; }
+main h2 {
+  margin: 7.5% 0;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;
+  color: #2a2a2a;
+  text-align: center; }
+main .servicesList {
+  max-width: 90%;
+  margin: 5% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  main .servicesList .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left; }
+    main .servicesList .left .services-11, main .servicesList .left .services-22 {
+      display: flex;
+      align-items: center; }
+      main .servicesList .left .services-11 img, main .servicesList .left .services-22 img {
+        margin: 0 25px; }
+      main .servicesList .left .services-11 p, main .servicesList .left .services-22 p {
+        font-family: "Open Sans", sans-serif;
+        width: 50%; }
+    main .servicesList .left .services-2 {
+      margin-top: 6.5%; }
+    main .servicesList .left .needToKnowMore {
+      text-align: center;
+      margin-top: 3%; }
+      main .servicesList .left .needToKnowMore a {
+        color: #4592dc;
+        padding: 10px 15px;
+        border: 1px solid #4592dc;
+        background: transparent;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        transition: all 0.2s ease-out;
+        text-decoration: none; }
+        main .servicesList .left .needToKnowMore a:hover {
+          color: white;
+          background: #4592dc;
+          border: 1px solid transparent;
+          transition: all 0.3s ease-in-out; }
+  main .servicesList .img {
+    align-self: center;
+    text-align: right; }
+    main .servicesList .img img {
+      max-width: 80%;
+      border-radius: 5px;
+      transition: all 0.4s ease-in; }
+      main .servicesList .img img:hover {
+        transition: all 0.3s ease;
+        opacity: 0.8;
+        cursor: pointer; }
+main svg {
+  margin-top: -2%;
+  position: relative;
+  margin-bottom: -15.5%; }
+main .content {
+  background-color: whitesmoke;
+  padding: 4% 4% 7%; }
+  main .content .whoAreUs {
+    max-width: 80%;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%; }
+    main .content .whoAreUs img {
+      border-radius: 50%; }
+    main .content .whoAreUs p {
+      font-family: "Open Sans", sans-serif;
+      width: 50%;
+      text-align: justify; }
+    main .content .whoAreUs span.name {
+      text-transform: uppercase;
+      color: #4592dc;
+      font-size: 25px; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: #2a2a2a;
+  color: white;
+  padding: 2%;
+  font-family: "Open Sans", sans-serif; }
+  footer a {
+    color: white;
+    font-size: 35px;
+    transition: all 0.3s ease-in;
+    margin: 0 10px; }
+    footer a:hover {
+      color: #4592dc;
+      transition: all 0.3s ease; }
+
+/* /PAGES/SERVICES.HTML */
+.banner2 {
+  padding: 15% 0 !important;
+  background: url("../img/banner2.jpg") center/cover fixed !important; }
+
+.texte2 {
+  font-size: 37px;
+  font-family: "Lato", sans-serif;
+  font-weight: lighter !important; }
+
+.listOfServices {
+  font-family: "Open Sans", sans-serif;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 10%; }
+  .listOfServices .services-0, .listOfServices .services-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around !important;
+    margin-top: 2.5%; }
+  .listOfServices .services-1, .listOfServices .services-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around !important;
+    margin-top: 5%; }
+  .listOfServices img {
+    border-radius: 5px;
+    width: 550px;
+    height: 300px; }
+  .listOfServices .texte-services-0 {
+    margin-left: 5%;
+    text-align: right; }
+    .listOfServices .texte-services-0 p {
+      text-align: justify;
+      width: 80%;
+      margin-left: auto; }
+  .listOfServices .texte-services-2 {
+    margin-left: 5%;
+    text-align: right; }
+    .listOfServices .texte-services-2 p {
+      text-align: justify;
+      width: 80%;
+      margin-left: auto; }
+  .listOfServices .texte-services-1 {
+    margin-right: 5%;
+    text-align: left; }
+    .listOfServices .texte-services-1 p {
+      text-align: justify;
+      width: 90%;
+      margin-right: auto; }
+  .listOfServices .texte-services-3 {
+    margin-right: 5%;
+    text-align: left; }
+    .listOfServices .texte-services-3 p {
+      text-align: justify;
+      width: 90%;
+      margin-right: auto; }
+
+/* /PAGES/TARIFS.HTML */
+.banner3 {
+  padding: 15% 0 !important;
+  background: url("../img/banner3.jpg") top/cover fixed !important; }
+
+.listOfPrices {
+  text-align: center;
+  margin: 10% 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+  .listOfPrices .price-0 {
+    padding: 1%;
+    width: 325px;
+    height: 325px;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    color: #2a2a2a;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(123, 113, 148, 0.2);
+    transition: all 0.2s ease-out; }
+    .listOfPrices .price-0:hover {
+      transform: translateY(-5px);
+      transition: all 0.3s ease-out; }
+    .listOfPrices .price-0 h3 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 1% 2.5%; }
+    .listOfPrices .price-0 hr {
+      border: 1px solid #4592dc;
+      width: 35%; }
+    .listOfPrices .price-0 p.price {
+      font-size: 45px;
+      text-align: center;
+      font-family: "Lobster", sans-serif;
+      margin: 3% 0; }
+    .listOfPrices .price-0 p {
+      text-align: justify; }
+    .listOfPrices .price-0 p.center {
+      text-align: center; }
+    .listOfPrices .price-0 p.prices {
+      font-size: 35px; }
+    .listOfPrices .price-0 a {
+      position: absolute;
+      bottom: 10px;
+      width: 50%;
+      left: 25%;
+      color: #4592dc;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 0;
+      border: 1px solid #4592dc;
+      border-radius: 2px;
+      transition: all 0.3s ease-in; }
+      .listOfPrices .price-0 a:hover {
+        transform: scale(1.1, 1.1);
+        transition: all 0.3s ease-out; }
+  .listOfPrices .price-1 {
+    width: 487px !important; }
+
+.responsive {
+  display: none; }
+
+/* /PAGES/CONTACT.HTML */
+.banner4 {
+  padding: 15% 0 !important;
+  background: url("../img/banner4.jpg") bottom/cover fixed !important; }
+
+/*# sourceMappingURL=main.css.map */
