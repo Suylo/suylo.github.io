@@ -1,3 +1,14 @@
+@media all and (max-width: 850px){
+    .responsive--{
+        display: none !important;
+    }
+    .none--{
+        display: block !important;
+    }
+    .servicesList{
+        flex-direction: column !important;
+    }
+}
 @media all and (max-width: 1220px){
     .responsive{
         display: flex;
@@ -112,9 +123,14 @@
     .services-11, .services-22{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center !important;
+        justify-content: center !important;
+
     }
     .whoAreUs{
         margin: 25% auto !important;
+    }
+    svg{
+        margin-bottom: -18.5% !important;
     }
 }

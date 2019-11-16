@@ -90,7 +90,8 @@ main .servicesList {
   margin: 5% auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: flex-start; }
   main .servicesList .left {
     display: flex;
     flex-direction: column;
@@ -98,42 +99,42 @@ main .servicesList {
     text-align: left; }
     main .servicesList .left .services-11, main .servicesList .left .services-22 {
       display: flex;
-      align-items: center; }
+      align-items: center;
+      margin: 5% 0; }
       main .servicesList .left .services-11 img, main .servicesList .left .services-22 img {
         margin: 0 25px; }
       main .servicesList .left .services-11 p, main .servicesList .left .services-22 p {
         font-family: "Open Sans", sans-serif;
-        width: 50%; }
-    main .servicesList .left .services-2 {
-      margin-top: 6.5%; }
-    main .servicesList .left .needToKnowMore {
-      text-align: center;
-      margin-top: 3%; }
-      main .servicesList .left .needToKnowMore a {
-        color: #4592dc;
-        padding: 10px 15px;
-        border: 1px solid #4592dc;
-        background: transparent;
-        font-family: "Open Sans", sans-serif;
-        text-transform: uppercase;
-        transition: all 0.2s ease-out;
-        text-decoration: none; }
-        main .servicesList .left .needToKnowMore a:hover {
-          color: white;
-          background: #4592dc;
-          border: 1px solid transparent;
-          transition: all 0.3s ease-in-out; }
-  main .servicesList .img {
-    align-self: center;
-    text-align: right; }
-    main .servicesList .img img {
-      max-width: 80%;
-      border-radius: 5px;
-      transition: all 0.4s ease-in; }
-      main .servicesList .img img:hover {
-        transition: all 0.3s ease;
-        opacity: 0.8;
-        cursor: pointer; }
+        width: 80%;
+        text-align: justify; }
+  main .servicesList .needToKnowMore {
+    text-align: center;
+    margin-top: 7.5%; }
+    main .servicesList .needToKnowMore a {
+      color: #4592dc;
+      padding: 10px 15px;
+      border: 1px solid #4592dc;
+      background: transparent;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      transition: all 0.2s ease-out;
+      text-decoration: none; }
+      main .servicesList .needToKnowMore a:hover {
+        color: white;
+        background: #4592dc;
+        border: 1px solid transparent;
+        transition: all 0.3s ease-in-out; }
+main .img {
+  align-self: center;
+  text-align: right; }
+  main .img img {
+    max-width: 70%;
+    border-radius: 5px;
+    transition: all 0.4s ease-in; }
+    main .img img:hover {
+      transition: all 0.3s ease;
+      opacity: 0.8;
+      cursor: pointer; }
 main svg {
   margin-top: -2%;
   position: relative;
@@ -307,5 +308,13 @@ footer {
 .banner4 {
   padding: 15% 0 !important;
   background: url("../img/banner4.jpg") bottom/cover fixed !important; }
+
+.contact p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px; }
+
+.none-- {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
