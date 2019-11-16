@@ -1,0 +1,136 @@
+@media all and (max-width: 850px){
+    .responsive--{
+        display: none !important;
+    }
+    .none--{
+        display: block !important;
+    }
+    .servicesList{
+        flex-direction: column !important;
+    }
+}
+@media all and (max-width: 1220px){
+    .responsive{
+        display: flex;
+        justify-content: center;
+    }
+    .none{
+        display: none;
+    }
+    .texte-services-0,  .texte-services-2{
+        text-align: center !important;
+        margin: 10% 0 !important;
+    }
+    .texte-services-1, .texte-services-3{
+        text-align: center !important;
+        margin: 10% 0 !important;
+
+    }
+    .services-0, .services-1, .services-2, .services-3{
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+    }
+    .services-0 p, .services-1 p, .services-2 p, .services-3 p{
+        width: 80%;
+        margin: auto !important;
+        text-align: center !important;
+    }
+}
+@media all and (max-width: 900px){
+    header{
+        flex-direction: column;
+    }
+    .centralBanner, .overlay, .banner2, .banner3, .banner4{
+        padding: 350px 0 !important;
+    }
+    .img {
+        display : none;
+    }
+    .servicesList{
+        max-width: 95% !important;
+        margin: 5% auto !important;
+    }
+    .services-11, .services-22{
+        margin: 5% 0;
+        justify-content: center
+    }
+    .content h2{
+        margin-top: 20% !important;
+    }
+    .whoAreUs{
+        padding: 7% 5% !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    .whoAreUs p{
+        width: 90% !important;
+    }
+}
+@media all and (max-width: 980px){
+    .listOfPrices{
+        flex-direction: column;
+        align-items: center;
+    }
+    .price-0{
+        margin: 5% 0;
+        max-width: 95%;
+
+    }
+    .price-1{
+        max-width: 90%;
+    }
+    .none{
+        display: block;
+    }
+    .responsive{
+        display: none;
+    }
+}
+@media all and (max-width: 620px) {
+    .listOfServices{
+        max-width: 90% !important;
+    }
+    .listOfServices img{
+        width: 100%;
+        height: auto;
+    }
+    .logo img{
+        margin: 0 !important;
+    }
+    ul#menu{
+        text-align: center;
+    }
+    nav ul#menu li a{
+        display: block !important;
+        text-align: center;
+    }
+    main .content .whoAreUs p{
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media all and (max-width: 585px){
+    .left {
+        margin: 25% auto;
+    }
+    .services-11, .services-22{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+
+    }
+    .whoAreUs{
+        margin: 25% auto !important;
+    }
+    svg{
+        margin-bottom: -18.5% !important;
+    }
+}
