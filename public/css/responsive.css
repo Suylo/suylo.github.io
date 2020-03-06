@@ -61,7 +61,7 @@
         justify-content: space-between;
         align-items: center;
     }
-    .project-1, .project-2, .project-3, .project-4, .project-5, .project-6{
+    .project-0 ,.project-1, .project-2, .project-3, .project-4, .project-5, .project-6{
         margin-bottom: 45px !important;
     }
     .services-1, .services-2, .services-3 {
@@ -83,7 +83,7 @@
         flex-direction: column;
         top: 1px;
     }
-    .project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
+    .project-0,.project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
         margin: 0 20px;
     }
 }
