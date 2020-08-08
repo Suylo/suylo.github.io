@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="suylo.github.io">
+  <component name="PublishConfigData" serverName="wamp">
     <serverData>
       <paths name="suylo.github.io">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wamp">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
