@@ -1,4 +1,4 @@
-Newest version of my website, there are many things were changed search them :)
+Most recent version of my website, there are many things were changed :
 
 - I used SASS instead of CSS.
 - More projects created.
