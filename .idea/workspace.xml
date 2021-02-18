@@ -39,6 +39,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Users\Lubineau Louis\Desktop\Fichiers" CustomDictionaries="1" CustomDictionary0="C:\Users\Lubineau Louis\Desktop\Fichiers\fr_FR.dic" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -57,6 +58,10 @@
       <workItem from="1568819968167" duration="8731000" />
       <workItem from="1570728089115" duration="2460000" />
       <workItem from="1596851237086" duration="474000" />
+      <workItem from="1598301803316" duration="770000" />
+      <workItem from="1601923440301" duration="82000" />
+      <workItem from="1607033431059" duration="34000" />
+      <workItem from="1613661577181" duration="10000" />
     </task>
     <servers />
   </component>
